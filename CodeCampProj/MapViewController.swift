@@ -10,12 +10,20 @@ import UIKit
 import MapKit
 class MapViewController: UIViewController {
     @IBOutlet weak var mapView: MKMapView!
-    
+  
+//    @IBOutlet weak var endLocation: UITextField!
+//
+//    @IBOutlet weak var startLocation: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         let initialLocation = CLLocation(latitude: 37.8740615, longitude: -122.2583052)
         centerMapOnLocation(location: initialLocation)
-
+//        let annotation = MKPointAnnotation()
+//        annotation.coordinate = CLLocationCoordinate2D(latitude: 37.8740615, longitude: -122.2583052)
+//        annotation.title = "You are here"
+//        mapView.addAnnotation(annotation)
+       
+    
     }
 
     func centerMapOnLocation(location: CLLocation) {
@@ -29,7 +37,9 @@ class MapViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    @IBAction func showRoute(_ sender: Any) {
+    }
+    
     /*
     // MARK: - Navigation
 
