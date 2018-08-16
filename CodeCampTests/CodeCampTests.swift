@@ -1,15 +1,15 @@
 //
-//  CodeCampProjTests.swift
-//  CodeCampProjTests
+//  CodeCampTests.swift
+//  CodeCampTests
 //
 //  Created by square on 8/15/18.
 //  Copyright © 2018 square. All rights reserved.
 //
 
 import XCTest
-@testable import CodeCampProj
+@testable import CodeCamp
 
-class CodeCampProjTests: XCTestCase {
+class CodeCampTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

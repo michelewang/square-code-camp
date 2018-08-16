@@ -1,6 +1,6 @@
 //
-//  DataViewController.swift
-//  CodeCampProj
+//  ViewController.swift
+//  CodeCamp
 //
 //  Created by square on 8/15/18.
 //  Copyright © 2018 square. All rights reserved.
@@ -8,11 +8,7 @@
 
 import UIKit
 
-class DataViewController: UIViewController {
-
-    @IBOutlet weak var dataLabel: UILabel!
-    var dataObject: String = ""
-
+class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,11 +18,6 @@ class DataViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        self.dataLabel!.text = dataObject
     }
 
 

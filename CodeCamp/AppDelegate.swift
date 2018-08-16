@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  CodeCampProj
+//  CodeCamp
 //
 //  Created by square on 8/15/18.
 //  Copyright © 2018 square. All rights reserved.
