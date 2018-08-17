@@ -57,14 +57,14 @@ class MapViewController: UIViewController,  UIPickerViewDelegate {
         } else {
             // Fallback on earlier versions
         }
-        directionsRequest.transportType = . any
+        directionsRequest.transportType = .any
         let directions = MKDirections(request: directionsRequest)
         directions.calculate{ response, error in
             if let res = response {
                 if let route = res.routes.first {
-                    self.mapView.add((route.polyline))
+                    self.mapView.add(route.polyline)
                 let midpoint =  CLLocation(latitude: 37.822482, longitude: -122.3240059)
-                self.centerMapOnLocation(location: midpoint, radius: 20000)
+                self.centerMapOnLocation(location: midpoint, radius: 22000)
                 }
             } else {
             }
