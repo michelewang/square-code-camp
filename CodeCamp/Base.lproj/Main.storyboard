@@ -153,14 +153,6 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BjR-4M-5cf">
-                                <rect key="frame" x="150" y="600" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="7hq-W1-VuO" kind="presentation" id="7j3-xk-GFT"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="iyK-Pg-o7T"/>
@@ -264,15 +256,15 @@
                                     <action selector="loginTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sNq-bS-yse"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="instaIcon" translatesAutoresizingMaskIntoConstraints="NO" id="vM4-dQ-mfB">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="instaIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="vM4-dQ-mfB">
                                 <rect key="frame" x="45" y="549" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="twitterIcon" translatesAutoresizingMaskIntoConstraints="NO" id="YVm-rp-VKL">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="twitterIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="YVm-rp-VKL">
                                 <rect key="frame" x="158" y="549" width="59" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="snapIcon" translatesAutoresizingMaskIntoConstraints="NO" id="VXm-Um-X6L">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="snapIcon.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="VXm-Um-X6L">
                                 <rect key="frame" x="273" y="549" width="56" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -293,12 +285,13 @@
     <resources>
         <image name="200px-Button_Icon_White.png" width="16" height="16"/>
         <image name="image-7.png" width="16" height="16"/>
-        <image name="instaIcon" width="398" height="398"/>
+        <image name="instaIcon.png" width="398" height="398"/>
         <image name="proPic2.png" width="16" height="16"/>
-        <image name="snapIcon" width="900" height="900"/>
-        <image name="twitterIcon" width="512" height="512"/>
+        <image name="snapIcon.jpg" width="900" height="900"/>
+        <image name="twitterIcon.png" width="512" height="512"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="f12-M8-mDf"/>
         <segue reference="byW-YB-95c"/>
     </inferredMetricsTieBreakers>
 </document>
