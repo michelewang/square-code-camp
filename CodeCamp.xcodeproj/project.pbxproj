@@ -21,6 +21,7 @@
 		59F92D2B2126A8B100AC01A3 /* 200px-Button_Icon_White.png in Resources */ = {isa = PBXBuildFile; fileRef = 59F92D2A2126A8B100AC01A3 /* 200px-Button_Icon_White.png */; };
 		59F92D2D2126A93300AC01A3 /* profPic2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 59F92D2C2126A93200AC01A3 /* profPic2.jpeg */; };
 		59F92D2F2126AB8F00AC01A3 /* profPic3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 59F92D2E2126AB8F00AC01A3 /* profPic3.jpeg */; };
+		59F92D312126AEA300AC01A3 /* pink_gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 59F92D302126AEA200AC01A3 /* pink_gradient.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		59F92D2A2126A8B100AC01A3 /* 200px-Button_Icon_White.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "200px-Button_Icon_White.png"; path = "../../Downloads/200px-Button_Icon_White.png"; sourceTree = "<group>"; };
 		59F92D2C2126A93200AC01A3 /* profPic2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = profPic2.jpeg; path = ../profPic2.jpeg; sourceTree = "<group>"; };
 		59F92D2E2126AB8F00AC01A3 /* profPic3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = profPic3.jpeg; path = ../profPic3.jpeg; sourceTree = "<group>"; };
+		59F92D302126AEA200AC01A3 /* pink_gradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pink_gradient.png; path = ../../Downloads/pink_gradient.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				59F92D2A2126A8B100AC01A3 /* 200px-Button_Icon_White.png */,
 				59F92D2C2126A93200AC01A3 /* profPic2.jpeg */,
 				59F92D2E2126AB8F00AC01A3 /* profPic3.jpeg */,
+				59F92D302126AEA200AC01A3 /* pink_gradient.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -258,6 +261,7 @@
 				59F92D232126A10400AC01A3 /* snapIcon.jpg in Resources */,
 				59F92D292126A8A800AC01A3 /* image-7.png in Resources */,
 				59D6F06F212533BA00783650 /* LaunchScreen.storyboard in Resources */,
+				59F92D312126AEA300AC01A3 /* pink_gradient.png in Resources */,
 				59F92D212126A10100AC01A3 /* twitterIcon.png in Resources */,
 				59F92D2D2126A93300AC01A3 /* profPic2.jpeg in Resources */,
 				59F92D2F2126AB8F00AC01A3 /* profPic3.jpeg in Resources */,
