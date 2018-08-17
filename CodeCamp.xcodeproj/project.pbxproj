@@ -23,6 +23,11 @@
 		59F92D2F2126AB8F00AC01A3 /* profPic3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 59F92D2E2126AB8F00AC01A3 /* profPic3.jpeg */; };
 		59F92D312126AEA300AC01A3 /* pink_gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 59F92D302126AEA200AC01A3 /* pink_gradient.png */; };
 		59F92D33212736E900AC01A3 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F92D32212736E900AC01A3 /* MapViewController.swift */; };
+		59F92D37212739E700AC01A3 /* image-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 59F92D34212739E600AC01A3 /* image-3.png */; };
+		59F92D38212739E700AC01A3 /* image-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 59F92D35212739E600AC01A3 /* image-6.png */; };
+		59F92D39212739E700AC01A3 /* image-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 59F92D36212739E700AC01A3 /* image-5.png */; };
+		59F92D3B21273D0100AC01A3 /* drew+headshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 59F92D3A21273D0100AC01A3 /* drew+headshot.png */; };
+		59F92D3D21273D6500AC01A3 /* Eliza-Headshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 59F92D3C21273D6500AC01A3 /* Eliza-Headshot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +70,11 @@
 		59F92D2E2126AB8F00AC01A3 /* profPic3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = profPic3.jpeg; path = ../profPic3.jpeg; sourceTree = "<group>"; };
 		59F92D302126AEA200AC01A3 /* pink_gradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pink_gradient.png; path = ../../Downloads/pink_gradient.png; sourceTree = "<group>"; };
 		59F92D32212736E900AC01A3 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		59F92D34212739E600AC01A3 /* image-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "image-3.png"; path = "../../Downloads/image-3.png"; sourceTree = "<group>"; };
+		59F92D35212739E600AC01A3 /* image-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "image-6.png"; path = "../../Downloads/image-6.png"; sourceTree = "<group>"; };
+		59F92D36212739E700AC01A3 /* image-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "image-5.png"; path = "../../Downloads/image-5.png"; sourceTree = "<group>"; };
+		59F92D3A21273D0100AC01A3 /* drew+headshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "drew+headshot.png"; path = "../../Documents/drew+headshot.png"; sourceTree = "<group>"; };
+		59F92D3C21273D6500AC01A3 /* Eliza-Headshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Eliza-Headshot.png"; path = "../../Documents/Eliza-Headshot.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +115,13 @@
 				59F92D282126A8A100AC01A3 /* image-7.png */,
 				59F92D2A2126A8B100AC01A3 /* 200px-Button_Icon_White.png */,
 				59F92D2C2126A93200AC01A3 /* profPic2.jpeg */,
+				59F92D3C21273D6500AC01A3 /* Eliza-Headshot.png */,
 				59F92D2E2126AB8F00AC01A3 /* profPic3.jpeg */,
+				59F92D3A21273D0100AC01A3 /* drew+headshot.png */,
 				59F92D302126AEA200AC01A3 /* pink_gradient.png */,
+				59F92D34212739E600AC01A3 /* image-3.png */,
+				59F92D36212739E700AC01A3 /* image-5.png */,
+				59F92D35212739E600AC01A3 /* image-6.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -260,12 +275,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				59F92D272126A33700AC01A3 /* instaIcon.png in Resources */,
+				59F92D3B21273D0100AC01A3 /* drew+headshot.png in Resources */,
 				59F92D2B2126A8B100AC01A3 /* 200px-Button_Icon_White.png in Resources */,
+				59F92D37212739E700AC01A3 /* image-3.png in Resources */,
+				59F92D3D21273D6500AC01A3 /* Eliza-Headshot.png in Resources */,
 				59F92D232126A10400AC01A3 /* snapIcon.jpg in Resources */,
 				59F92D292126A8A800AC01A3 /* image-7.png in Resources */,
 				59D6F06F212533BA00783650 /* LaunchScreen.storyboard in Resources */,
 				59F92D312126AEA300AC01A3 /* pink_gradient.png in Resources */,
+				59F92D39212739E700AC01A3 /* image-5.png in Resources */,
 				59F92D212126A10100AC01A3 /* twitterIcon.png in Resources */,
+				59F92D38212739E700AC01A3 /* image-6.png in Resources */,
 				59F92D2D2126A93300AC01A3 /* profPic2.jpeg in Resources */,
 				59F92D2F2126AB8F00AC01A3 /* profPic3.jpeg in Resources */,
 				59D6F06A212533B500783650 /* Main.storyboard in Resources */,
