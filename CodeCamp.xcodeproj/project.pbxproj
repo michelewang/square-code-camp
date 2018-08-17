@@ -14,14 +14,10 @@
 		59D6F07A212533BA00783650 /* CodeCampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D6F079212533BA00783650 /* CodeCampTests.swift */; };
 		59D6F085212533BA00783650 /* CodeCampUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D6F084212533BA00783650 /* CodeCampUITests.swift */; };
 		59D6F093212534B300783650 /* page2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D6F092212534B300783650 /* page2.swift */; };
-
 		59F92D1721265A9300AC01A3 /* profPic3.png in Resources */ = {isa = PBXBuildFile; fileRef = 59F92D1621265A9300AC01A3 /* profPic3.png */; };
-
-		6C1DECC7212649C4007FF3AF /* proPic2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C1DECC6212649C4007FF3AF /* proPic2.png */; };
-		6C1DECD021265943007FF3AF /* instaIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C1DECCF21265943007FF3AF /* instaIcon.png */; };
-		6C1DECD22126598E007FF3AF /* twitterIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C1DECD12126598E007FF3AF /* twitterIcon.png */; };
-		6C1DECD4212659B7007FF3AF /* snapIcon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C1DECD3212659B7007FF3AF /* snapIcon.jpg */; };
-
+		59F92D212126A10100AC01A3 /* twitterIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 59F92D202126A10100AC01A3 /* twitterIcon.png */; };
+		59F92D232126A10400AC01A3 /* snapIcon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59F92D222126A10400AC01A3 /* snapIcon.jpg */; };
+		59F92D252126A10D00AC01A3 /* instaIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 59F92D242126A10D00AC01A3 /* instaIcon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,11 +52,9 @@
 		59D6F086212533BA00783650 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59D6F092212534B300783650 /* page2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = page2.swift; sourceTree = "<group>"; };
 		59F92D1621265A9300AC01A3 /* profPic3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profPic3.png; path = ../../Documents/profPic3.png; sourceTree = "<group>"; };
-		6C1DECC6212649C4007FF3AF /* proPic2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = proPic2.png; path = ../Desktop/proPic2.png; sourceTree = "<group>"; };
-		6C1DECCF21265943007FF3AF /* instaIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = instaIcon.png; path = ../Desktop/instaIcon.png; sourceTree = "<group>"; };
-		6C1DECD12126598E007FF3AF /* twitterIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitterIcon.png; path = ../Desktop/twitterIcon.png; sourceTree = "<group>"; };
-		6C1DECD3212659B7007FF3AF /* snapIcon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = snapIcon.jpg; path = ../Desktop/snapIcon.jpg; sourceTree = "<group>"; };
-
+		59F92D202126A10100AC01A3 /* twitterIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitterIcon.png; path = ../twitterIcon.png; sourceTree = "<group>"; };
+		59F92D222126A10400AC01A3 /* snapIcon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = snapIcon.jpg; path = ../snapIcon.jpg; sourceTree = "<group>"; };
+		59F92D242126A10D00AC01A3 /* instaIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = instaIcon.png; path = ../instaIcon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,10 +90,9 @@
 				59D6F083212533BA00783650 /* CodeCampUITests */,
 				59D6F062212533B500783650 /* Products */,
 				59F92D1621265A9300AC01A3 /* profPic3.png */,
-				6C1DECC6212649C4007FF3AF /* proPic2.png */,
-				6C1DECCF21265943007FF3AF /* instaIcon.png */,
-				6C1DECD12126598E007FF3AF /* twitterIcon.png */,
-				6C1DECD3212659B7007FF3AF /* snapIcon.jpg */,
+				59F92D242126A10D00AC01A3 /* instaIcon.png */,
+				59F92D222126A10400AC01A3 /* snapIcon.jpg */,
+				59F92D202126A10100AC01A3 /* twitterIcon.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -251,13 +244,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C1DECD4212659B7007FF3AF /* snapIcon.jpg in Resources */,
-				6C1DECD021265943007FF3AF /* instaIcon.png in Resources */,
+				59F92D232126A10400AC01A3 /* snapIcon.jpg in Resources */,
 				59D6F06F212533BA00783650 /* LaunchScreen.storyboard in Resources */,
 				59F92D1721265A9300AC01A3 /* profPic3.png in Resources */,
-				59D6F06C212533BA00783650 /* Assets.xcassets in Resources */,
-				6C1DECC7212649C4007FF3AF /* proPic2.png in Resources */,
-				6C1DECD22126598E007FF3AF /* twitterIcon.png in Resources */,
+				59F92D252126A10D00AC01A3 /* instaIcon.png in Resources */,
+				59F92D212126A10100AC01A3 /* twitterIcon.png in Resources */,
 				59D6F06A212533B500783650 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -448,8 +439,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
