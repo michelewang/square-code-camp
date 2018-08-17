@@ -9,6 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBAction func loginTapped(_ sender: UIButton) {
+        print("Hello world")
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
