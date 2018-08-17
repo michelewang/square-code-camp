@@ -21,6 +21,7 @@
 		6C1DECD021265943007FF3AF /* instaIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C1DECCF21265943007FF3AF /* instaIcon.png */; };
 		6C1DECD22126598E007FF3AF /* twitterIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C1DECD12126598E007FF3AF /* twitterIcon.png */; };
 		6C1DECD4212659B7007FF3AF /* snapIcon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C1DECD3212659B7007FF3AF /* snapIcon.jpg */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -257,6 +258,9 @@
 				59760EAE21269CE50049704C /* 200px-Button_Icon_White.png in Resources */,
 				6C1DECD021265943007FF3AF /* instaIcon.png in Resources */,
 				59D6F06F212533BA00783650 /* LaunchScreen.storyboard in Resources */,
+				59F92D1B2126904F00AC01A3 /* instaIcon.png in Resources */,
+				59F92D1F2126908000AC01A3 /* twitterIcon.png in Resources */,
+				59F92D1D2126906C00AC01A3 /* snapIcon.jpg in Resources */,
 				59F92D1721265A9300AC01A3 /* profPic3.png in Resources */,
 				6C1DECC7212649C4007FF3AF /* proPic2.png in Resources */,
 				6C1DECD22126598E007FF3AF /* twitterIcon.png in Resources */,
