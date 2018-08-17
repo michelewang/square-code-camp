@@ -3,18 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		59D6F065212533B500783650 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D6F064212533B500783650 /* AppDelegate.swift */; };
 		59D6F067212533B500783650 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D6F066212533B500783650 /* ViewController.swift */; };
 		59D6F06A212533B500783650 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59D6F068212533B500783650 /* Main.storyboard */; };
-		59D6F06C212533BA00783650 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59D6F06B212533BA00783650 /* Assets.xcassets */; };
 		59D6F06F212533BA00783650 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59D6F06D212533BA00783650 /* LaunchScreen.storyboard */; };
 		59D6F07A212533BA00783650 /* CodeCampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D6F079212533BA00783650 /* CodeCampTests.swift */; };
 		59D6F085212533BA00783650 /* CodeCampUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D6F084212533BA00783650 /* CodeCampUITests.swift */; };
 		59D6F093212534B300783650 /* page2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D6F092212534B300783650 /* page2.swift */; };
+<<<<<<< HEAD
+		59F92D1721265A9300AC01A3 /* profPic3.png in Resources */ = {isa = PBXBuildFile; fileRef = 59F92D1621265A9300AC01A3 /* profPic3.png */; };
+=======
+		6C1DECC7212649C4007FF3AF /* proPic2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C1DECC6212649C4007FF3AF /* proPic2.png */; };
+		6C1DECD021265943007FF3AF /* instaIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C1DECCF21265943007FF3AF /* instaIcon.png */; };
+		6C1DECD22126598E007FF3AF /* twitterIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C1DECD12126598E007FF3AF /* twitterIcon.png */; };
+		6C1DECD4212659B7007FF3AF /* snapIcon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C1DECD3212659B7007FF3AF /* snapIcon.jpg */; };
+>>>>>>> f39464ea1175023f78ce13bca0fdd0b35447a133
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +46,6 @@
 		59D6F064212533B500783650 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59D6F066212533B500783650 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		59D6F069212533B500783650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		59D6F06B212533BA00783650 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59D6F06E212533BA00783650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59D6F070212533BA00783650 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59D6F075212533BA00783650 /* CodeCampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeCampTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +55,14 @@
 		59D6F084212533BA00783650 /* CodeCampUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeCampUITests.swift; sourceTree = "<group>"; };
 		59D6F086212533BA00783650 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59D6F092212534B300783650 /* page2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = page2.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
+		59F92D1621265A9300AC01A3 /* profPic3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profPic3.png; path = ../../Documents/profPic3.png; sourceTree = "<group>"; };
+=======
+		6C1DECC6212649C4007FF3AF /* proPic2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = proPic2.png; path = ../Desktop/proPic2.png; sourceTree = "<group>"; };
+		6C1DECCF21265943007FF3AF /* instaIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = instaIcon.png; path = ../Desktop/instaIcon.png; sourceTree = "<group>"; };
+		6C1DECD12126598E007FF3AF /* twitterIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitterIcon.png; path = ../Desktop/twitterIcon.png; sourceTree = "<group>"; };
+		6C1DECD3212659B7007FF3AF /* snapIcon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = snapIcon.jpg; path = ../Desktop/snapIcon.jpg; sourceTree = "<group>"; };
+>>>>>>> f39464ea1175023f78ce13bca0fdd0b35447a133
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +97,14 @@
 				59D6F078212533BA00783650 /* CodeCampTests */,
 				59D6F083212533BA00783650 /* CodeCampUITests */,
 				59D6F062212533B500783650 /* Products */,
+<<<<<<< HEAD
+				59F92D1621265A9300AC01A3 /* profPic3.png */,
+=======
+				6C1DECC6212649C4007FF3AF /* proPic2.png */,
+				6C1DECCF21265943007FF3AF /* instaIcon.png */,
+				6C1DECD12126598E007FF3AF /* twitterIcon.png */,
+				6C1DECD3212659B7007FF3AF /* snapIcon.jpg */,
+>>>>>>> f39464ea1175023f78ce13bca0fdd0b35447a133
 			);
 			sourceTree = "<group>";
 		};
@@ -103,7 +125,6 @@
 				59D6F066212533B500783650 /* ViewController.swift */,
 				59D6F092212534B300783650 /* page2.swift */,
 				59D6F068212533B500783650 /* Main.storyboard */,
-				59D6F06B212533BA00783650 /* Assets.xcassets */,
 				59D6F06D212533BA00783650 /* LaunchScreen.storyboard */,
 				59D6F070212533BA00783650 /* Info.plist */,
 			);
@@ -196,19 +217,22 @@
 				TargetAttributes = {
 					59D6F060212533B500783650 = {
 						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
 					};
 					59D6F074212533BA00783650 = {
 						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 59D6F060212533B500783650;
 					};
 					59D6F07F212533BA00783650 = {
 						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 59D6F060212533B500783650;
 					};
 				};
 			};
 			buildConfigurationList = 59D6F05C212533B500783650 /* Build configuration list for PBXProject "CodeCamp" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -232,8 +256,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C1DECD4212659B7007FF3AF /* snapIcon.jpg in Resources */,
+				6C1DECD021265943007FF3AF /* instaIcon.png in Resources */,
 				59D6F06F212533BA00783650 /* LaunchScreen.storyboard in Resources */,
+<<<<<<< HEAD
+				59F92D1721265A9300AC01A3 /* profPic3.png in Resources */,
 				59D6F06C212533BA00783650 /* Assets.xcassets in Resources */,
+=======
+				6C1DECC7212649C4007FF3AF /* proPic2.png in Resources */,
+				6C1DECD22126598E007FF3AF /* twitterIcon.png in Resources */,
+>>>>>>> f39464ea1175023f78ce13bca0fdd0b35447a133
 				59D6F06A212533B500783650 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,10 +468,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CodeCamp/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = square.CodeCamp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -453,10 +482,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CodeCamp/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = square.CodeCamp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -471,11 +497,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CodeCampTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = square.CodeCampTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -491,11 +513,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CodeCampTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = square.CodeCampTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -510,11 +528,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CodeCampUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = square.CodeCampUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -529,11 +543,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CodeCampUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = square.CodeCampUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
