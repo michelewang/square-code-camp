@@ -22,6 +22,7 @@
 		59F92D2D2126A93300AC01A3 /* profPic2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 59F92D2C2126A93200AC01A3 /* profPic2.jpeg */; };
 		59F92D2F2126AB8F00AC01A3 /* profPic3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 59F92D2E2126AB8F00AC01A3 /* profPic3.jpeg */; };
 		59F92D312126AEA300AC01A3 /* pink_gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 59F92D302126AEA200AC01A3 /* pink_gradient.png */; };
+		59F92D33212736E900AC01A3 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F92D32212736E900AC01A3 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		59F92D2C2126A93200AC01A3 /* profPic2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = profPic2.jpeg; path = ../profPic2.jpeg; sourceTree = "<group>"; };
 		59F92D2E2126AB8F00AC01A3 /* profPic3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = profPic3.jpeg; path = ../profPic3.jpeg; sourceTree = "<group>"; };
 		59F92D302126AEA200AC01A3 /* pink_gradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pink_gradient.png; path = ../../Downloads/pink_gradient.png; sourceTree = "<group>"; };
+		59F92D32212736E900AC01A3 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 		59D6F063212533B500783650 /* CodeCamp */ = {
 			isa = PBXGroup;
 			children = (
+				59F92D32212736E900AC01A3 /* MapViewController.swift */,
 				59D6F064212533B500783650 /* AppDelegate.swift */,
 				59D6F066212533B500783650 /* ViewController.swift */,
 				59D6F092212534B300783650 /* page2.swift */,
@@ -293,6 +296,7 @@
 				59D6F067212533B500783650 /* ViewController.swift in Sources */,
 				59D6F065212533B500783650 /* AppDelegate.swift in Sources */,
 				59D6F093212534B300783650 /* page2.swift in Sources */,
+				59F92D33212736E900AC01A3 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
