@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Avenir.ttc">
+            <string>Avenir-Black</string>
+            <string>Avenir-Book</string>
+            <string>Avenir-BookOblique</string>
+            <string>Avenir-Heavy</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -229,16 +237,12 @@
                                     <segue destination="KMC-rL-Pqy" kind="presentation" id="7va-g1-0Dp"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eWX-Qv-8BB">
-                                <rect key="frame" x="16" y="20" width="69" height="42"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Uo-qN-i3m">
+                                <rect key="frame" x="16" y="10" width="55" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Profile">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="titleShadowColor" red="0.8980392157" green="0.86274509799999999" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
+                                <state key="normal" image="profPic2.png"/>
                                 <connections>
-                                    <segue destination="X98-Wj-c20" kind="presentation" id="epZ-Qc-IgF"/>
+                                    <segue destination="X98-Wj-c20" kind="show" id="TOf-FP-AyE"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -365,10 +369,6 @@
                                 <rect key="frame" x="273" y="549" width="56" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="profPic2.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="jBb-DL-BMd">
-                                <rect key="frame" x="55" y="92" width="274" height="260"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7nO-fe-XUE">
                                 <rect key="frame" x="16" y="37" width="53" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -380,6 +380,10 @@
                                     <segue destination="d1m-ca-YGf" kind="presentation" id="BB6-Pj-VlA"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="profPic2.png" translatesAutoresizingMaskIntoConstraints="NO" id="rGS-uj-Yn2">
+                                <rect key="frame" x="41" y="81" width="292" height="285"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="SBa-tX-Wln"/>
@@ -387,7 +391,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kXz-T4-vhi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="831" y="-551"/>
+            <point key="canvasLocation" x="829.60000000000002" y="-551.87406296851577"/>
         </scene>
     </scenes>
     <resources>
@@ -395,12 +399,13 @@
         <image name="image-7.png" width="2560" height="1600"/>
         <image name="instaIcon.png" width="398" height="398"/>
         <image name="pink_gradient.png" width="638" height="378"/>
-        <image name="profPic2.jpeg" width="200" height="200"/>
+        <image name="profPic2.png" width="504" height="504"/>
         <image name="profPic3.jpeg" width="200" height="200"/>
         <image name="snapIcon.jpg" width="900" height="900"/>
         <image name="twitterIcon.png" width="512" height="512"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="m8I-cp-1xT"/>
+        <segue reference="TOf-FP-AyE"/>
+        <segue reference="BB6-Pj-VlA"/>
     </inferredMetricsTieBreakers>
 </document>
