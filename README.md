@@ -1,2 +1,3 @@
-# square-code-camp
-Final project!
+# Safety in Sisters
+
+For our final project at Square's College Code Camp, we built a prototype of an iOS app in Swift to help women safely walk home at night. When a user wants to walk home at night, they can input their current location, desired destination, and when they want to leave (as soon as possible, in 30 minutes, etc.) We used the Apple Maps API to find the route between these two points. After the user has confirmed their destination, they are paired with another user who is leaving at a similar time, from a similar place, and is traveling to a similar destination. The users are given each others' contact information so they can find a mutual place to meet and walk home together. Each user can then confirm they have safely arrived at their destination.
